@@ -1,0 +1,67 @@
+.ec-3x {
+  font-size: 3em !important;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.2rem;
+  margin: 0;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 2em;
+}
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Align items horizontally in center */
+  align-items: center; /* Align items vertically in center */
+  height: 100vh;
+  background:rgb(249, 249, 249);
+}
+
+.feedback-container {
+  position: relative;
+  background:rgb(255, 255, 255);
+  width: 400px;
+  height: 200px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 10px;
+}
+
+.emoji-container {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 25px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.ec {
+  width: 100%;
+  transform: translate(0px);
+  transition: transform 0.6s;
+  border-radius: 10px;
+}
+
+.rating-container {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 50px;
+}
+
+.fa-star {
+  color: lightgrey;
+  cursor: pointer;
+}
+
+.fa-star.active {
+  color: rgb(255, 174, 0);
+}
