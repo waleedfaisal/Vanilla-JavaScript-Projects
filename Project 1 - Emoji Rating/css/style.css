@@ -65,3 +65,56 @@ body {
 .fa-star.active {
   color: rgb(255, 174, 0);
 }
+
+.github-badge {
+  position: absolute;
+  bottom:20px;
+  right: 20px;
+  background: rgb(22, 22, 22);
+  border-radius: 60px;
+  box-shadow: rgba(36, 36, 36, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  padding: 12px 25px;
+}
+
+.twitter-badge {
+  position: absolute;
+  display: flex;
+  bottom:20px;
+  left: 20px;
+  background: rgb(255, 255, 255);
+  border-radius: 60px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  padding: 12px 20px;
+}
+
+.link  {
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Poppins",arial;
+  font-size: 14px;
+}
+
+.fa-github {
+  font-size: 17px;
+  margin-right: 9px;
+}
+
+.fa-twitter {
+  font-size: 17px;
+  margin-right: 10px;
+  border-right-color: rgb(204, 204, 204);
+  border-left-color: #fff;
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+  padding-right: 9px;
+  border-width: 1px;
+  border-style: solid;
+  color: rgb(0, 128, 255);
+}
+
+.fa-linkedin-in {
+  font-size: 17px;
+  color: rgb(8, 65, 198);
+}
