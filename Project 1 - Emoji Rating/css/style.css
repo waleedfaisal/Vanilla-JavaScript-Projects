@@ -118,3 +118,17 @@ body {
   font-size: 17px;
   color: rgb(8, 65, 198);
 }
+
+/** Media Queries For Mobile **/
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 0 15px;
+  }
+  .feedback-container {
+    width: 100%;
+  }
+  .rating-container {
+    width: 200px;
+  }
+}
