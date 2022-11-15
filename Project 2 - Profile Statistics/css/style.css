@@ -13,7 +13,7 @@ body {
 
 section {
   display: flex;
-  padding: 75px 15px;
+  padding: 75px 0px;
   text-align: center;
   flex-direction: row;
 }
